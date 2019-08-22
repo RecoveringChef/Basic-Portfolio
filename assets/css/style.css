@@ -27,6 +27,8 @@ h1 {float: left;
 
 }
 
+hr{ }
+
 nav {float: right;
        padding: 20px 0 0 0;
         
@@ -66,4 +68,10 @@ footer {clear: both;
 }
 
 img {float: left;
+}
+
+.things{width: 75%;
+    padding: 10px;
+    border: 1px solid black;
+
 }
