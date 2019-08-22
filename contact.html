@@ -27,14 +27,27 @@
   <Section>
         <div class="things">
           <form action="action_page.php">
-            <label for="name">Name:</label>
-            <input type="text" id="name" placeholder="J. Doe">
+            <section id="name">
+              <label for="name">Name:</label>
+              <input type="text" placeholder="J. Doe">
+            </section> 
 
-            <label for="email">Email:</label>
-            <input type="email" id="email" placeholder="jdoe@zmail.com">
+            <section id="email">
+              <label for="email" >Email:</label >
+              <input type="email" placeholder="jdoe@zmail.com">
+            </section>
+              <br>
 
-            <label for="message">Message:</label>
-            <input type="text" id="name" placeholder="Start typing...">
+            <section id="mess">
+              <label for="message">Message:</label>
+              
+              <textarea name="message" style="width:83%; height:120px;">
+                  
+              </textarea>
+
+              <br>
+                <input type="submit">
+            </section>
 
           </form>
         </div>
