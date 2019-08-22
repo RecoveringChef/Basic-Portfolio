@@ -83,11 +83,14 @@ img {float: left;
     border: #dddddd 2px solid;
 }
 
-.stuff{width: 960px;
-    padding: 10px;
-    margin: 50px auto;
+.stuff{margin:40px auto;
+    margin-bottom: 30px;
+    background-color: #ffffff;
+    border: #dddddd 2px solid;
+    padding: 15px;
+    width: 960px;
+    height: 500px;
     font-family: Arial, Helvetica, sans-serif;
-
 }
 
 #name{float: left;
@@ -102,7 +105,7 @@ img {float: left;
 }
 
 #mess {clear: both;
-    margin-left: 11px;
+    margin-left: 90px;
     
 
 }
@@ -114,9 +117,31 @@ input[type=text] {
     box-sizing: border-box;
   }
 
-  input[type=email] {
+input[type=email] {
     width: 100%;
     padding: 12px 20px;
     margin: 8px 0;
     box-sizing: border-box;
   }
+ #food{ float: left;
+}
+
+#beach{float: right;
+}
+
+#giraffe{float: left;
+
+}
+
+#pretty{float: right;
+
+}
+
+#transistor{float: left;
+
+}
+
+#plane{float: right;
+
+}
+
