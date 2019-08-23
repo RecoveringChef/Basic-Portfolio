@@ -87,6 +87,7 @@ img {float: left;
     margin-bottom: 30px;
     background-color: #ffffff;
     border: #dddddd 2px solid;
+    position: relative;
     padding: 15px;
     width: 960px;
     height: 500px;
@@ -123,25 +124,33 @@ input[type=email] {
     margin: 8px 0;
     box-sizing: border-box;
   }
- #food{ float: left;
+ #food{ position: absolute;
+    right: 15%;
+    top: 130px;
 }
 
-#beach{float: right;
+#beach{position: absolute;
+    left: 15%;
+    top: 130px;
 }
 
-#giraffe{float: left;
-
+#giraffe{position: absolute;
+    right: 420px;
+    top: 130px;
 }
 
-#pretty{float: right;
-
+#pretty{position: absolute;
+    left: 15%;
+    bottom: 50px;
 }
 
-#transistor{float: left;
-
+#transistor{position: absolute;
+    right: 15%;
+    bottom: 50px;
 }
 
-#plane{float: right;
-
+#plane{position: absolute;
+    left: 420px;
+    bottom: 50px;
 }
 
